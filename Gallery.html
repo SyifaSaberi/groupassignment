@@ -1,0 +1,606 @@
+<html>
+<title>Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="ASSET/CSS/style.css">
+
+<a name="first_anchor"></a>
+<body style="background-color:#C09175;">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5C4033;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:white;
+  text-align: center;
+  padding: 14px 85px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #C4A484;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5C4033;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #C4A484;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #5C4033;
+  font-family: arial;
+  color:#D5B895;
+  font-weight:bold;
+}
+
+
+
+body {
+  font-family: 'Tekton Pro';
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #5C4033;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Ten columns side by side */
+.column {
+  float: left;
+  width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+div.gallery {
+        border: 1px solid #ccc;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 20%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+.header {
+  padding: 5px 5px;
+  background: #C19A6B;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+</style>
+
+<body>
+
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="organizationalchart.html">ORGANIZATIONAL CHART</a>
+  
+  <div class="dropdown">
+        <button class="dropbtn">PRODUCT 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Product's Video.html">Product's Video</a>
+        <a href="Gallery.html">Gallery</a>
+      </div>
+  </div>
+  
+    <a href="location.html">LOCATION</a>
+   
+  <div class="dropdown">
+      <button class="dropbtn">ABOUT US
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="vision&mission.html">Vision & Mission</a>
+        <a href="objectives.html">Objectives</a>
+  </div>
+  </div>
+  
+  <a href="feedback.html">FEEDBACK</a>
+  </div>
+
+
+
+<div class="header" id="myHeader">
+  <h1 style="text-align:center; color:white; font-size:40; font-family:Tekton Pro">GALLERY</h1>
+</div>
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+
+<br>
+
+
+
+<h2 style="text-align:center; color:#5C4033; font-size:40; font-family:Tekton Pro">BLOUSES</h2>
+
+
+<br>
+
+<center>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 1.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 2.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 3.jpg" style="width:30%; height:70%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 4.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 5.jpg" style="width:30%; height:70%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 6.jpg" style="width:30%; height:70%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">7 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 7.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 8.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 9.jpg" style="width:30%; height:70%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 10</div>
+    <img src="ASSET/RESOURCES/Blouse 10.jpg" style="width:30%; height:70%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</center>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 1.jpg" style="width:100%; height:25%" onclick="currentSlide(1)" alt="Blouse 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 2.jpg" style="width:100%; height:25%" onclick="currentSlide(2)" alt="Blouse 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 3.jpg" style="width:100%; height:25%" onclick="currentSlide(3)" alt="Blouse 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 4.jpg" style="width:100%; height:25%" onclick="currentSlide(4)" alt="Blouse 4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 5.jpg" style="width:100%; height:25%" onclick="currentSlide(5)" alt="Blouse 5">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 6.jpg" style="width:100%; height:25%" onclick="currentSlide(6)" alt="Blouse 6">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 7.jpg" style="width:100%; height:25%" onclick="currentSlide(7)" alt="Blouse 7">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 8.jpg" style="width:100%; height:25%" onclick="currentSlide(8)" alt="Blouse 8">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 9.jpg" style="width:100%; height:25%" onclick="currentSlide(9)" alt="Blouse 9">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="ASSET/RESOURCES/Blouse 10.jpg" style="width:100%; height:25%" onclick="currentSlide(10)" alt="Blouse 10">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<br>
+<span style="color:#D5B895;font-weight:bold">
+</span>
+<br>
+<br>
+
+<h2 style="text-align:center; color:#5C4033; font-size:40; font-family:Tekton Pro">SCARVES</h2>
+
+
+<br>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 1.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 1.jpg"
+            alt="Black"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Black</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 2.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 2.jpg"
+            alt="Mocha"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Mocha</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 3.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 3.jpg"
+            alt="Cream"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Cream</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 4.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 4.jpg"
+            alt="Sky Grey"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Sky Grey</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 5.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 5.jpg"
+            alt="Emerald Green"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Emerald Green</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 6.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 6.jpg"
+            alt="Grey"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Grey</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 7.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 7.jpg"
+            alt="Silver"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Silver</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 8.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 8.jpg"
+            alt="Maroon"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Maroon</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 9.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 9.jpg"
+            alt="Lilac"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Lilac</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="ASSET/RESOURCES/Shawl 10.jpg">
+          <img
+            src="ASSET/RESOURCES/Shawl 10.jpg"
+            alt="Dusty Pink"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Dusty Pink</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div style="padding: 6px">
+    </div>
+
+<br>
+<br>
+<br>
+<span style="color:#D5B895;font-weight:bold;font-family: 'Tekton Pro'"></span>
+<a href="#first_anchor">Go to top</a>
+
+<footer>
+  <p>Owned by NASSS Boutique</p>
+</footer>
+    
+</body>
+</html>
